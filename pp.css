@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+	font-family: 'Montserrat';
+}
+
+
+@import "nullstyle.scss";
+
+.body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#logo {
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	left: 680px;
+	top: -15px;
+}
+
+#pic {
+	position: relative;
+	width: 1440px;
+	height: 540px;
+	left: 40px;
+	border-radius: 40px;
+}
+
+.dws-menu {
+	 margin-top: 130px;
+	 margin-left: 370px;
+	 padding: 0;
+	}
+.dws-menu ul {
+	 list-style: none;
+	}
+.dws-menu > ul{
+	 display: flex;
+	}
+.dws-menu > ul li{
+	 position: relative;
+	}
+.dws-menu > ul li > ul li {
+	margin-top:0px;
+}
+
+.dws-menu > ul li > a i.fa{
+	 position: absolute;
+	 top: 5px;
+	}
+.dws-menu > ul li a{
+	 display: block;
+
+	 padding: 15px 30px 15px 40px;
+	 font-style: normal;
+	 font-weight: 400;
+	 font-size: 25px;
+	 line-height: 20px;
+	 color: #454547;
+	 text-decoration: none;
+	 transition: all 0.3s ease;
+	}
+.dws-menu li a:hover{
+	 color: #A39F9F;
+	 box-shadow: 1px 5px 10px -5px black;
+	}
+
+.dws-menu li ul{
+	 display: none;
+}
+
+.dws-menu li:hover ul{
+	 display: block;
+}
+
+
+
+#rectangle{
+	position: relative;
+	width: 1495px;
+	height: 359px;
+	left: 14.5px;
+}
+	
+#rectangle1 textarea{
+	position: absolute;
+	width: 810px;
+	height: 119px;
+	left: 380px;
+	top: 1500px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	padding-left: 54px;
+	padding-top: 15px;
+	
+	background: linear-gradient(72.84deg, #FAFF00 37.46%, rgba(0, 224, 255, 0) 96.09%);
+	border-radius: 132.5px;
+	}	
+		
+		
+#b {
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 398px;
+	height: 119px;
+	left: 1084px;
+	top: 1500px;
+
+	background: #00ED09;
+	border-radius: 132.5px;
+	border: none;
+}
+
+#b a {
+	position: absolute;
+	width: 168px;
+	height: 37px;
+	left: 120px;
+	top: 40px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 37px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.image {
+	border-radius: 90px;
+	border: 5px;
+	border-color: #ffffff;
+	
+    float:left; 
+    margin: 7px 7px 7px 0; 
+   }
+
+.i {
+	border-radius: 90px;
+	border: 5px;
+	border-color: #ffffff;
+	
+    float:left; 
+    margin: 30px 7px 7px 50px; 
+   }
+
+
+.pac {
+	box-sizing: border-box;
+
+	position: relative;	
+	margin: 10px;
+	width: 1450px;
+	left: 20px;
+	font-size: 20;
+	line-height: 1.5;
+}
